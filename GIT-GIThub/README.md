@@ -94,18 +94,7 @@ $: git push origin master
 Quando houver erros, basta baixar o pacote e realizar manutenção.
 O comando abaixo fará atualização para o pacote atual no qual será feito a verificação e atualização correta necessária para o bom funcionamento do repositório.
 ```
+$: git pull origin master
 $: git push origin master
 ```
-
-
-Para correção de código
-```
-$: git pull url-code-git
-```
-
-Após basta usar os comandos
-```
-$: git add *
-$: git commit -m "comentario"
-$: git push origin master
-```
+Pode ser realizado as manutenções dos códigos após antes de utilizar o push.
