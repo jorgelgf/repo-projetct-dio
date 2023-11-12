@@ -98,3 +98,36 @@ $: git pull origin master
 $: git push origin master
 ```
 Pode ser realizado as manutenções dos códigos após antes de utilizar o push.
+
+
+## Removendo node moduloes do projeto de forma simples
+
+crie o arquivo .gitignore
+```
+touch .gitignore
+```
+
+Insira o código dentro do arquivo .gitignore
+```
+**/node_modules
+```
+
+Depois remova os arquivos com o comando abaixo
+```
+git rm -r --cached node_modules
+```
+
+Adc as mudanças
+```
+git add .gitignore
+```
+
+Adc commit
+```
+git commit - 'removendo node_modules'
+```
+
+Suba o código
+```
+git push origin branch
+```
