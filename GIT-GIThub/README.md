@@ -124,7 +124,7 @@ git add .gitignore
 
 Adc commit
 ```
-git commit - 'removendo node_modules'
+git commit -m 'removendo node_modules'
 ```
 
 Suba o código
